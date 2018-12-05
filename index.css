@@ -1,0 +1,42 @@
+
+.jumbotron {
+font-family: 'Assistant', sans-serif;
+  background-color: lavender;
+}
+.navlink{
+font-family: 'Assistant', sans-serif;
+}
+.card-img-top1 {
+  width: 100%;
+  height: 15vw;
+  object-fit: center;
+}
+.form-control mr-sm-2{
+  color: black;
+}
+.social-icons {
+  text-align: center;
+  background-color: lavender;
+  }
+.social-icons li {
+  display:inline-block;
+  list-style-type:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  }
+  .social-icons li img {
+    width:30px;
+    height:30px;
+    margin-right: 20px;
+  }
+  .social-icons li a {
+  border-bottom: none;
+  }
+h5{
+  text-align: center;
+  color: black;
+  font-family: arial;
+}
+.form-inline my-2 my-lg-0{
+  color: black;
+}

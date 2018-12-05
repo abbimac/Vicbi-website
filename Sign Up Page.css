@@ -1,0 +1,14 @@
+body{
+  background-color: lavender;
+}
+h1{
+  text-align: center;
+}
+form {
+margin: 0 auto;
+width:250px;
+}
+.form-group{
+  width: 125%;
+  text-align: center;
+}
