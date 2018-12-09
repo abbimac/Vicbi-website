@@ -1,22 +1,48 @@
-
+body{
+  font-family: 'Assistant', sans-serif;
+  background-color: skyblue;
+  display: block;
+}
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
 .jumbotron {
 font-family: 'Assistant', sans-serif;
-  background-color: lavender;
+
+  background-color: skyblue;
+}
+.lead {
+  text-align: center;
+}
+.display-4{
+  text-align: center;
+font-family: 'Archivo Black', sans-serif;
 }
 .navlink{
 font-family: 'Assistant', sans-serif;
 }
-.card-img-top1 {
+.card {
+  overflow: hidden;
+}
+.card-img-top1{
   width: 100%;
   height: 15vw;
-  object-fit: center;
+}
+.card-text{
+  text-align: justify;
+   padding-right: 100px;
+}
+.card-body{
+  width: 100%;
+  height: 15vw;
 }
 .form-control mr-sm-2{
   color: black;
 }
 .social-icons {
   text-align: center;
-  background-color: lavender;
+  background-color: skyblue;
   }
 .social-icons li {
   display:inline-block;
@@ -35,8 +61,43 @@ font-family: 'Assistant', sans-serif;
 h5{
   text-align: center;
   color: black;
-  font-family: arial;
+  font-family: 'Assistant', sans-serif;
 }
 .form-inline my-2 my-lg-0{
   color: black;
+}
+h1{
+  font-size: 50;
+font-family: 'lucida console';
+    color: black;
+    padding-top: 120px;
+    background-image: url("header.png"); /* The image used */
+background-color: #cccccc; /* Used if the image is unavailable */
+height: 300px; /* You must set a specified height */
+background-position: center; /* Center the image */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover; /* Resize the background image to cover the entire container */
+}
+p{
+  text-align: center;
+  margin: 0 auto;
+  width: 30em;
+}
+h4{
+  text-align:center;
+}
+h2{
+  text-align: center;
+}
+.impact{
+  text-align:center;
+}
+.carousel{
+    height: 350px;
+    width: 40%;
+    margin: auto;
+}
+.carousel-item img{
+    height: 350px;
+    width: 40%;
 }
